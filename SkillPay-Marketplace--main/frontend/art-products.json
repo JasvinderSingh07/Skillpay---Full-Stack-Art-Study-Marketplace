@@ -1,0 +1,374 @@
+{
+  "sketches": [
+    {
+      "id": "sketch-01",
+      "name": "Unblinking Truth",
+      "price": 350,
+      "image": "Our Images/eye.jpeg"
+    },
+    {
+      "id": "sketch-02",
+      "name": "Pokemon",
+      "price": 320,
+      "image": "Our Images/pokemon.jpg"
+    },
+    {
+      "id": "sketch-03",
+      "name": "Satoru Gojo",
+      "price": 450,
+      "image": "Our Images/gojo.jpeg"
+    },
+    {
+      "id": "sketch-04",
+      "name": "RDJ",
+      "price": 510,
+      "image": "Our Images/tony.jpeg"
+    },
+    {
+      "id": "sketch-05",
+      "name": "Puriko Sketch",
+      "price": 569,
+      "image": "Our Images/puriko.jpg"
+    },
+    {
+      "id": "sketch-06",
+      "name": "Portrait Sketch",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sketch-07",
+      "name": "Pencil Drawing",
+      "price": 420,
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sketch-08",
+      "name": "Pencil Portrait",
+      "price": 390,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sketch-09",
+      "name": "Pencil Figure Drawing",
+      "price": 360,
+      "image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sketch-10",
+      "name": "Detailed Pencil Portrait",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d29294b1?w=400&h=400&fit=crop"
+    }
+  ],
+  "sculptures": [
+    {
+      "id": "sculpture-01",
+      "name": "Lord Buddha",
+      "price": 400,
+      "image": "Our Images/buddha.jpg"
+    },
+    {
+      "id": "sculpture-02",
+      "name": "Wooden Toy",
+      "price": 450,
+      "image": "Our Images/ullu.jpeg"
+    },
+    {
+      "id": "sculpture-03",
+      "name": "Marble Statue",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-04",
+      "name": "Bronze Sculpture",
+      "price": 920,
+      "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-05",
+      "name": "Clay Art Piece",
+      "price": 580,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-06",
+      "name": "Stone Carving",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-07",
+      "name": "Metal Art Sculpture",
+      "price": 680,
+      "image": "https://images.unsplash.com/photo-1564422167503-6b0ad1330a0a?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-08",
+      "name": "Abstract Sculpture",
+      "price": 720,
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-09",
+      "name": "Ceramic Art",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "sculpture-10",
+      "name": "Wooden Sculpture",
+      "price": 620,
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop"
+    }
+  ],
+  "paintings": [
+    {
+      "id": "painting-01",
+      "name": "Abstract Watercolor",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-02",
+      "name": "Sunset Landscape",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-03",
+      "name": "Modern Art Canvas",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-04",
+      "name": "Floral Painting",
+      "price": 600,
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-05",
+      "name": "Cityscape Art",
+      "price": 800,
+      "image": "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-06",
+      "name": "Ocean Waves",
+      "price": 700,
+      "image": "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-07",
+      "name": "Mountain Vista",
+      "price": 780,
+      "image": "https://images.unsplash.com/photo-1578321272176-b7bbc0679854?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-08",
+      "name": "Abstract Expressionism",
+      "price": 720,
+      "image": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-09",
+      "name": "Vintage Portrait",
+      "price": 680,
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "painting-10",
+      "name": "Nature's Beauty",
+      "price": 740,
+      "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop"
+    }
+  ],
+  "arts": [
+    {
+      "id": "art-01",
+      "name": "Digital Art Portrait",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-02",
+      "name": "Minimalist Design",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-03",
+      "name": "Geometric Art",
+      "price": 520,
+      "image": "https://images.unsplash.com/photo-1557683310-4b8290f8c9b5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-04",
+      "name": "Vintage Poster Art",
+      "price": 600,
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-05",
+      "name": "Calligraphy Art",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-06",
+      "name": "Mixed Media Art",
+      "price": 680,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-07",
+      "name": "Street Art Style",
+      "price": 590,
+      "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-08",
+      "name": "Contemporary Art",
+      "price": 640,
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-09",
+      "name": "Pop Art Design",
+      "price": 570,
+      "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "art-10",
+      "name": "Abstract Digital Art",
+      "price": 610,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=400&fit=crop"
+    }
+  ],
+  "photographs": [
+    {
+      "id": "photo-01",
+      "name": "Sunset Over Mountains",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-02",
+      "name": "Ocean Sunset",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-03",
+      "name": "Forest Path",
+      "price": 420,
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-04",
+      "name": "City Lights",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-05",
+      "name": "Mountain Lake",
+      "price": 460,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-06",
+      "name": "Desert Dunes",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-07",
+      "name": "Tropical Beach",
+      "price": 490,
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-08",
+      "name": "Aurora Borealis",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-09",
+      "name": "Wildlife Portrait",
+      "price": 520,
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "photo-10",
+      "name": "Starry Night Sky",
+      "price": 510,
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop"
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": "new-01",
+      "name": "3D Printed Art",
+      "price": 680,
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-02",
+      "name": "LED Light Art",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-03",
+      "name": "Holographic Art",
+      "price": 820,
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-04",
+      "name": "Interactive Digital Frame",
+      "price": 900,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-05",
+      "name": "Neon Art Installation",
+      "price": 780,
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-06",
+      "name": "Augmented Reality Art",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-07",
+      "name": "Kinetic Sculpture",
+      "price": 720,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-08",
+      "name": "Projection Mapping Art",
+      "price": 880,
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-09",
+      "name": "Smart Canvas Art",
+      "price": 800,
+      "image": "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "new-10",
+      "name": "AI Generated Art",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop"
+    }
+  ]
+}

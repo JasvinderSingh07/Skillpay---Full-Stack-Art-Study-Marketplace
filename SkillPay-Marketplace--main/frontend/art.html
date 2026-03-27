@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art Section | SkillPay</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="art.css" />
+</head>
+<body class="bg-gray-50">
+
+  <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0">
+          <a href="select.html" class="flex items-center gap-2 text-xl font-bold text-gray-800">
+            <svg class="w-8 h-8 text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM8.547 4.505a8.25 8.25 0 1010.45 9.452.75.75 0 00-1.06-1.06 6.75 6.75 0 11-8.33-8.33.75.75 0 001.06-1.062zM9.75 6a.75.75 0 01.75.75v3a.75.75 0 01-1.5 0v-3A.75.75 0 019.75 6zm3 .75a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0v-4.5zM15 6.75a.75.75 0 01.75.75v6a.75.75 0 01-1.5 0v-6a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+            </svg>
+            <span>SkillPay Art</span>
+          </a>
+        </div>
+        <div class="ml-4 flex items-center">
+          <a href="order.html" class="p-2 rounded-full text-gray-600 hover:bg-gray-100 hover:text-purple-600 transition-colors" title="My Cart">
+            <i data-lucide="shopping-cart" class="w-6 h-6"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="css-tab-wrapper">
+    <input type="radio" name="art-category" id="radio-sketches" class="category-toggle" checked>
+    <input type="radio" name="art-category" id="radio-sculptures" class="category-toggle">
+    <input type="radio" name="art-category" id="radio-paintings" class="category-toggle">
+    <input type="radio" name="art-category" id="radio-arts" class="category-toggle">
+    <input type="radio" name="art-category" id="radio-photographs" class="category-toggle">
+    <input type="radio" name="art-category" id="radio-newArrivals" class="category-toggle">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+      <div class="flex flex-col md:flex-row gap-8">
+        <aside class="md:w-64 flex-shrink-0">
+          <div class="sticky top-24">
+            <h3 class="text-lg font-bold text-gray-800 mb-4">Categories</h3>
+            <div class="flex flex-row md:flex-col overflow-x-auto md:overflow-x-visible pb-2 md:pb-0">
+              <label for="radio-sketches" class="sidebar-btn">Sketches</label>
+              <label for="radio-sculptures" class="sidebar-btn">Sculptures</label>
+              <label for="radio-paintings" class="sidebar-btn">Paintings</label>
+              <label for="radio-arts" class="sidebar-btn">Arts</label>
+              <label for="radio-photographs" class="sidebar-btn">Photographs</label>
+              <label for="radio-newArrivals" class="sidebar-btn">New Arrivals</label>
+            </div>
+          </div>
+        </aside>
+
+        <main class="flex-1">
+          <div>
+            <div id="section-sketches" class="gallery-section">
+              <div class="gallery" id="sketches-gallery"></div>
+            </div>
+            <div id="section-sculptures" class="gallery-section">
+              <div class="gallery" id="sculptures-gallery"></div>
+            </div>
+            <div id="section-paintings" class="gallery-section">
+              <div class="gallery" id="paintings-gallery"></div>
+            </div>
+            <div id="section-arts" class="gallery-section">
+              <div class="gallery" id="arts-gallery"></div>
+            </div>
+            <div id="section-photographs" class="gallery-section">
+              <div class="gallery" id="photographs-gallery"></div>
+            </div>
+            <div id="section-newArrivals" class="gallery-section">
+              <div class="gallery" id="newArrivals-gallery"></div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="art.js" defer></script>
+</body>
+</html>

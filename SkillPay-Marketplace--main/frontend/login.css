@@ -1,0 +1,83 @@
+/* ====== LOGIN PAGE STYLING ====== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: scale(1.03);
+}
+
+.login-container h1 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #2d3436;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #b2bec3;
+  outline: none;
+  font-size: 15px;
+  transition: border 0.2s ease;
+}
+
+input:focus {
+  border: 1.5px solid #0984e3;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  background: linear-gradient(135deg, #0984e3, #6c5ce7);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    width: 90%;
+    padding: 30px;
+  }
+}

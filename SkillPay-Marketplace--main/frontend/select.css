@@ -1,0 +1,139 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars as the content fits the screen */
+}
+
+.selection-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; /* Stacking for mobile first */
+}
+
+/* Side-by-side for desktop */
+@media (min-width: 768px) {
+    .selection-container {
+        flex-direction: row; 
+    }
+}
+
+.panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: flex-grow 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-decoration: none;
+}
+
+/* On desktop, add the grow effect */
+@media (min-width: 768px) {
+    .panel:hover {
+        flex-grow: 1.5;
+    }
+}
+
+.art-panel {
+    background: linear-gradient(135deg, #fdba74, #f97316); /* Orange gradient */
+}
+
+.course-panel {
+    background: linear-gradient(135deg, #93c5fd, #3b82f6); /* Blue gradient */
+}
+
+.panel-content {
+    position: relative;
+    z-index: 10;
+    transition: transform 0.4s ease;
+}
+
+.panel:hover .panel-content {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    margin-bottom: 1.5rem;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.panel:hover .icon-container {
+    transform: scale(1.15) rotate(-8deg);
+}
+
+.icon-container svg {
+    width: 64px;
+    height: 64px;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.2));
+}
+
+.panel h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .panel h2 {
+        font-size: 2rem;
+    }
+}
+
+.panel p {
+    margin-top: 1rem;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 2rem;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px; /* pill shape */
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.panel:hover .button {
+    background-color: white;
+    border-color: white;
+}
+
+.art-panel:hover .button {
+    color: #f97316; /* Orange */
+}
+
+.course-panel:hover .button {
+    color: #3b82f6; /* Blue */
+}
+
+.back-link {
+    position: fixed;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.875rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #374151;
+    backdrop-filter: blur(4px);
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 20;
+}
+
+.back-link:hover {
+    background-color: white;
+}

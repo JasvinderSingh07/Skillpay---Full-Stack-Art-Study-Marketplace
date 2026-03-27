@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - SkillPay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+        
+        <header class="text-center mb-8 md:mb-12">
+            <a href="select.html" class="inline-flex items-center gap-3 text-3xl font-bold text-gray-800 transition-transform hover:scale-105">
+                <svg class="w-8 h-8 text-indigo-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="currentColor"></path></svg>
+                <span>SkillPay Checkout</span>
+            </a>
+            <p class="text-gray-500 mt-2 max-w-md mx-auto">Please review your order and provide your shipping address to complete the purchase.</p>
+        </header>
+
+        <main class="grid lg:grid-cols-5 gap-8">
+
+            <div class="lg:col-span-3 bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                    <svg class="w-6 h-6 text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9998 1.5C7.8598 1.5 4.4998 4.86 4.4998 9C4.4998 14.25 11.9998 22.5 11.9998 22.5C11.9998 22.5 19.4998 14.25 19.4998 9C19.4998 4.86 16.1398 1.5 11.9998 1.5ZM11.9998 12C10.3428 12 8.9998 10.657 8.9998 9C8.9998 7.343 10.3428 6 11.9998 6C13.6568 6 14.9998 7.343 14.9998 9C14.9998 10.657 13.6568 12 11.9998 12Z"></path></svg>
+                    <span>Shipping Address</span>
+                </h2>
+                <form action="#" id="checkout-form">
+                    <div class="space-y-6">
+                        <div>
+                            <label for="fullName" class="form-label">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" class="form-input" placeholder="Enter your name" required />
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 1234567890" required />
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email address (Optional)</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="youremail@example.com" />
+                        </div>
+                        <div>
+                            <label for="address" class="form-label">Address *</label>
+                            <textarea id="address" name="address" class="form-input" placeholder="Enter your full address" required rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="place-order-btn">
+                        <span>Place Order</span>
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002 2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" /></svg>
+                    </button>
+                </form>
+            </div>
+
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-xl shadow-lg p-6 sticky top-8">
+                    <h2 class="text-xl font-bold text-gray-800 border-b pb-4 mb-4">Your Order</h2>
+                    
+                    <div id="cart-items-container" class="space-y-4">
+                        </div>
+                    
+                    <div class="space-y-3 mt-6 pt-6 border-t border-dashed">
+                        <div class="flex justify-between text-gray-600">
+                            <span>Subtotal</span>
+                            <span class="font-medium" id="subtotal-amount">₹0.00</span>
+                        </div>
+                        <div class="flex justify-between text-gray-600">
+                            <span>Shop discount (8%)</span>
+                            <span class="font-medium text-green-600" id="discount-amount">- ₹0.00</span>
+                        </div>
+                        <div class="flex justify-between text-gray-600">
+                            <span>Shipping</span>
+                            <span>₹40.00</span>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between items-center mt-6 pt-4 border-t">
+                        <span class="text-lg font-bold text-gray-900">Total Payable</span>
+                        <span class="text-2xl font-bold text-indigo-600" id="total-payable">₹40.00</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="order.js" defer></script>
+
+</body>
+</html>

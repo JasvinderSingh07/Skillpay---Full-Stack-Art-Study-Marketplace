@@ -1,0 +1,191 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar {
+    width: 320px;
+    border-radius: 9999px;
+    border: 1px solid #d1d5db; /* gray-300 */
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem; /* 14px */
+    transition: all 0.2s ease-in-out;
+}
+.search-bar:focus {
+    outline: none;
+    border-color: #2563eb; /* blue-600 */
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500; /* medium */
+    color: #4b5563; /* gray-600 */
+    background-color: #f3f4f6; /* gray-100 */
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    transition: all 0.2s ease-in-out;
+}
+.back-link:hover {
+    background-color: #e5e7eb; /* gray-200 */
+    color: #1f2937; /* gray-800 */
+}
+
+/* --- CSS-only Tab Logic --- */
+.category-toggle {
+    display: none;
+}
+.gallery-section {
+    display: none;
+}
+#radio-courses:checked ~ .container #section-courses,
+#radio-books:checked ~ .container #section-books,
+#radio-stationery:checked ~ .container #section-stationery,
+#radio-notes:checked ~ .container #section-notes,
+#radio-journals:checked ~ .container #section-journals,
+#radio-projects:checked ~ .container #section-projects {
+    display: block;
+}
+/* --- End CSS-only Tab Logic --- */
+
+/* Sidebar labels */
+.sidebar-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+}
+.sidebar-btn:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+/* UPDATED: Simplified and Corrected Tab Styling */
+#radio-courses:checked ~ .container .sidebar-btn[for="radio-courses"],
+#radio-books:checked ~ .container .sidebar-btn[for="radio-books"],
+#radio-stationery:checked ~ .container .sidebar-btn[for="radio-stationery"],
+#radio-notes:checked ~ .container .sidebar-btn[for="radio-notes"],
+#radio-journals:checked ~ .container .sidebar-btn[for="radio-journals"],
+#radio-projects:checked ~ .container .sidebar-btn[for="radio-projects"] {
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+    font-weight: 600;
+}
+
+
+@media (min-width: 768px) {
+    .sidebar-btn {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* UPDATED: Re-using 'gallery' class for grid layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.resource-card {
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; /* Added flex to control children */
+    flex-direction: column; /* Stack children vertically */
+}
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.resource-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background: #f3f4f6;
+}
+.resource-title {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 700;
+    color: #1f2937;
+    padding: 1rem 1rem 0.25rem 1rem;
+}
+.resource-rating {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0.5rem 1rem; /* Reduced bottom padding */
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-top: auto; /* Pushes rating to bottom */
+}
+.star-icon {
+    width: 16px;
+    height: 16px;
+    color: #f59e0b; /* amber-500 */
+    fill: #f59e0b;
+    margin-right: 0.25rem;
+}
+.review-count {
+    color: #6b7280; /* gray-500 */
+    font-weight: 500;
+    margin-left: 0.25rem;
+}
+.empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem; /* 320px */
+    background-color: #f9fafb; /* gray-50 */
+    border-radius: 0.75rem; /* 12px */
+    color: #6b7280; /* gray-500 */
+    font-weight: 500;
+}
+
+/* NEW: Footer for price and cart button */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-top: 1px solid #f3f4f6; /* gray-100 */
+    margin-top: 0.5rem;
+}
+.resource-price {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* NEW: Style for the "Add to Cart" button */
+.add-to-cart-btn {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    background-color: #f3f4f6; /* gray-100 */
+    color: #2563eb; /* blue-600 */
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Need this so the parent button's listener fires */
+.add-to-cart-btn i {
+    pointer-events: none;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+}

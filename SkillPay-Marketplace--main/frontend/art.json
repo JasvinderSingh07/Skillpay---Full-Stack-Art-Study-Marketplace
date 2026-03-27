@@ -1,0 +1,41 @@
+{
+  "sketches": [
+    {
+      "id": 1,
+      "title": "Puriko Sketch",
+      "description": "A soft pencil sketch of Puriko with expressive details.",
+      "price": 350,
+      "image": "images/puriko.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Pokémon Art",
+      "description": "Hand-drawn Pokémon character with vibrant shading.",
+      "price": 400,
+      "image": "images/pokemon.jpg"
+    },
+    {
+      "id": 3,
+      "title": "RDJ Portrait",
+      "description": "Realistic portrait of Robert Downey Jr. in graphite.",
+      "price": 600,
+      "image": "images/rdj.jpg"
+    }
+  ],
+  "sculptures": [
+    {
+      "id": 4,
+      "title": "Clay Dragon",
+      "description": "Handcrafted clay dragon sculpture with intricate detail.",
+      "price": 800,
+      "image": "images/dragon.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Abstract Human Form",
+      "description": "Modern artistic sculpture symbolizing motion.",
+      "price": 950,
+      "image": "images/abstract.jpg"
+    }
+  ]
+}

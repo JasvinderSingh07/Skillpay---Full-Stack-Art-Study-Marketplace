@@ -1,0 +1,152 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* --- CSS-only Tab Logic --- */
+.category-toggle {
+  display: none;
+}
+
+.gallery-section {
+  display: none;
+}
+
+#radio-sketches:checked ~ .container #section-sketches,
+#radio-sculptures:checked ~ .container #section-sculptures,
+#radio-paintings:checked ~ .container #section-paintings,
+#radio-arts:checked ~ .container #section-arts,
+#radio-photographs:checked ~ .container #section-photographs,
+#radio-newArrivals:checked ~ .container #section-newArrivals {
+  display: block;
+}
+/* --- End CSS-only Tab Logic --- */
+
+/* Sidebar labels */
+.sidebar-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+
+.sidebar-btn:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+/* Active tab styling */
+#radio-sketches:checked ~ .container .sidebar-btn[for="radio-sketches"],
+#radio-sculptures:checked ~ .container .sidebar-btn[for="radio-sculptures"],
+#radio-paintings:checked ~ .container .sidebar-btn[for="radio-paintings"],
+#radio-arts:checked ~ .container .sidebar-btn[for="radio-arts"],
+#radio-photographs:checked ~ .container .sidebar-btn[for="radio-photographs"],
+#radio-newArrivals:checked ~ .container .sidebar-btn[for="radio-newArrivals"] {
+  background-color: #9333ea; /* purple-600 */
+  color: white;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .sidebar-btn {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Gallery grid layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.art-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.art-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.art-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.art-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1f2937;
+  padding: 1rem 1rem 0.25rem 1rem;
+}
+
+.art-price-heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-top: 1px solid #f3f4f6;
+  margin-top: 0.5rem;
+}
+
+.art-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.heart {
+  color: #e74c3c;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+/* Add to cart button styling */
+.add-to-cart-btn {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  color: #9333ea;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #9333ea;
+  color: white;
+}
+
+.add-to-cart-btn i {
+  pointer-events: none;
+}
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+}

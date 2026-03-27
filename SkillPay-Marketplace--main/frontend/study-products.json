@@ -1,0 +1,494 @@
+{
+  "courses": [
+    {
+      "id": "course-01",
+      "name": "C Language Full Course",
+      "price": 499,
+      "image": "Our Images/cLanguage.jpeg",
+      "rating": 4.8,
+      "reviews": 200
+    },
+    {
+      "id": "course-02",
+      "name": "English Speaking Class",
+      "price": 399,
+      "image": "Our Images/english speaking.jpeg",
+      "rating": 4.0,
+      "reviews": 230
+    },
+    {
+      "id": "course-03",
+      "name": "Stock Trading Course",
+      "price": 799,
+      "image": "Our Images/stockMarket.webp",
+      "rating": 4.2,
+      "reviews": 180
+    },
+    {
+      "id": "course-04",
+      "name": "Web Development",
+      "price": 699,
+      "image": "Our Images/webdevelopment.png",
+      "rating": 4.5,
+      "reviews": 310
+    },
+    {
+      "id": "course-05",
+      "name": "Python Programming",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 450
+    },
+    {
+      "id": "course-06",
+      "name": "Data Science Masterclass",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 320
+    },
+    {
+      "id": "course-07",
+      "name": "Machine Learning Basics",
+      "price": 749,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 280
+    },
+    {
+      "id": "course-08",
+      "name": "Digital Marketing",
+      "price": 549,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 190
+    },
+    {
+      "id": "course-09",
+      "name": "Graphic Design Course",
+      "price": 649,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d29294b1?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 250
+    },
+    {
+      "id": "course-10",
+      "name": "Mobile App Development",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 340
+    }
+  ],
+  "books": [
+    {
+      "id": "book-01",
+      "name": "Programming Fundamentals",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 120
+    },
+    {
+      "id": "book-02",
+      "name": "Mathematics Textbook",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 95
+    },
+    {
+      "id": "book-03",
+      "name": "Physics Reference Book",
+      "price": 420,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 110
+    },
+    {
+      "id": "book-04",
+      "name": "Chemistry Guide",
+      "price": 400,
+      "image": "https://images.unsplash.com/photo-1532619675605-1ede6c002ed6?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "reviews": 88
+    },
+    {
+      "id": "book-05",
+      "name": "History Textbook",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "reviews": 75
+    },
+    {
+      "id": "book-06",
+      "name": "English Literature",
+      "price": 390,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 102
+    },
+    {
+      "id": "book-07",
+      "name": "Computer Science Basics",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 145
+    },
+    {
+      "id": "book-08",
+      "name": "Biology Reference",
+      "price": 410,
+      "image": "https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 98
+    },
+    {
+      "id": "book-09",
+      "name": "Economics Textbook",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "reviews": 87
+    },
+    {
+      "id": "book-10",
+      "name": "Geography Guide",
+      "price": 370,
+      "image": "https://images.unsplash.com/photo-1533158326339-7f3cf2404354?w=400&h=400&fit=crop",
+      "rating": 4.0,
+      "reviews": 72
+    }
+  ],
+  "stationery": [
+    {
+      "id": "stationery-01",
+      "name": "Premium Notebook Set",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 150
+    },
+    {
+      "id": "stationery-02",
+      "name": "Gel Pen Pack (12pcs)",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 200
+    },
+    {
+      "id": "stationery-03",
+      "name": "Drawing Pencils Set",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 175
+    },
+    {
+      "id": "stationery-04",
+      "name": "Highlighter Set",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d29294b1?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 140
+    },
+    {
+      "id": "stationery-05",
+      "name": "Geometry Box",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 125
+    },
+    {
+      "id": "stationery-06",
+      "name": "Sticky Notes Pack",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "reviews": 180
+    },
+    {
+      "id": "stationery-07",
+      "name": "File Folder Set",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 110
+    },
+    {
+      "id": "stationery-08",
+      "name": "Eraser & Sharpener Set",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "reviews": 195
+    },
+    {
+      "id": "stationery-09",
+      "name": "Ruler & Scale Set",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1583484963886-cce2f22890d6?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 165
+    },
+    {
+      "id": "stationery-10",
+      "name": "Color Pencils (24pcs)",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 220
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-01",
+      "name": "Physics Handwritten Notes",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 85
+    },
+    {
+      "id": "note-02",
+      "name": "Chemistry Study Notes",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 92
+    },
+    {
+      "id": "note-03",
+      "name": "Mathematics Formula Notes",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 110
+    },
+    {
+      "id": "note-04",
+      "name": "Biology Revision Notes",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 78
+    },
+    {
+      "id": "note-05",
+      "name": "Programming Concepts Notes",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 125
+    },
+    {
+      "id": "note-06",
+      "name": "History Summary Notes",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 65
+    },
+    {
+      "id": "note-07",
+      "name": "English Grammar Notes",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "reviews": 88
+    },
+    {
+      "id": "note-08",
+      "name": "Economics Key Points",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 95
+    },
+    {
+      "id": "note-09",
+      "name": "Geography Notes",
+      "price": 175,
+      "image": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "reviews": 72
+    },
+    {
+      "id": "note-10",
+      "name": "Computer Science Notes",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 105
+    }
+  ],
+  "journals": [
+    {
+      "id": "journal-01",
+      "name": "Study Planner Journal",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 140
+    },
+    {
+      "id": "journal-02",
+      "name": "Daily Reflection Journal",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 115
+    },
+    {
+      "id": "journal-03",
+      "name": "Goal Setting Journal",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 130
+    },
+    {
+      "id": "journal-04",
+      "name": "Bullet Journal",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 165
+    },
+    {
+      "id": "journal-05",
+      "name": "Gratitude Journal",
+      "price": 270,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "reviews": 98
+    },
+    {
+      "id": "journal-06",
+      "name": "Academic Planner",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 145
+    },
+    {
+      "id": "journal-07",
+      "name": "Creative Writing Journal",
+      "price": 290,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 112
+    },
+    {
+      "id": "journal-08",
+      "name": "Project Planning Journal",
+      "price": 310,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 125
+    },
+    {
+      "id": "journal-09",
+      "name": "Habit Tracker Journal",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "reviews": 108
+    },
+    {
+      "id": "journal-10",
+      "name": "Research Journal",
+      "price": 330,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 135
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01",
+      "name": "Web Development Project",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 95
+    },
+    {
+      "id": "project-02",
+      "name": "Mobile App Project",
+      "price": 600,
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 88
+    },
+    {
+      "id": "project-03",
+      "name": "Data Analysis Project",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 102
+    },
+    {
+      "id": "project-04",
+      "name": "Machine Learning Project",
+      "price": 700,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "reviews": 115
+    },
+    {
+      "id": "project-05",
+      "name": "IoT Project Kit",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 78
+    },
+    {
+      "id": "project-06",
+      "name": "Database Design Project",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 92
+    },
+    {
+      "id": "project-07",
+      "name": "Game Development Project",
+      "price": 580,
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 85
+    },
+    {
+      "id": "project-08",
+      "name": "AI Chatbot Project",
+      "price": 720,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 98
+    },
+    {
+      "id": "project-09",
+      "name": "E-commerce Website Project",
+      "price": 620,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 110
+    },
+    {
+      "id": "project-10",
+      "name": "Blockchain Project",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 105
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillPay - Study Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="study.css">
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0">
+          <a href="select.html" class="flex items-center gap-2 text-xl font-bold text-gray-800">
+            <svg class="w-8 h-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" />
+            </svg>
+            <span>SkillPay Study</span>
+          </a>
+        </div>
+        <div class="ml-4 flex items-center">
+          <a href="order.html" class="p-2 rounded-full text-gray-600 hover:bg-gray-100 hover:text-indigo-600 transition-colors" title="My Cart">
+            <i data-lucide="shopping-cart" class="w-6 h-6"></i>
+          </a>
+        </div>
+      </div>
+        </div>
+    </header>
+
+    <div class="css-tab-wrapper">
+        <input type="radio" name="study-category" id="radio-courses" class="category-toggle" checked>
+        <input type="radio" name="study-category" id="radio-books" class="category-toggle">
+        <input type="radio" name="study-category" id="radio-stationery" class="category-toggle">
+        <input type="radio" name="study-category" id="radio-notes" class="category-toggle">
+        <input type="radio" name="study-category" id="radio-journals" class="category-toggle">
+        <input type="radio" name="study-category" id="radio-projects" class="category-toggle">
+
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+            <div class="flex flex-col md:flex-row gap-8">
+                <aside class="md:w-64 flex-shrink-0">
+                    <div class="sticky top-24">
+                        <h3 class="text-lg font-bold text-gray-800 mb-4">Categories</h3>
+                        <div class="flex flex-row md:flex-col overflow-x-auto md:overflow-x-visible pb-2 md:pb-0">
+                             <label for="radio-courses" class="sidebar-btn">Courses</label>
+                             <label for="radio-books" class="sidebar-btn">Books</label>
+                             <label for="radio-stationery" class="sidebar-btn">Stationery</label>
+                             <label for="radio-notes" class="sidebar-btn">Notes</label>
+                             <label for="radio-journals" class="sidebar-btn">Journals</label>
+                             <label for="radio-projects" class="sidebar-btn">Projects</label>
+                        </div>
+                    </div>
+                </aside>
+
+                <main class="flex-1">
+                    <div>
+                        <div id="section-courses" class="gallery-section">
+                            <div class="gallery" id="courses-gallery"></div>
+                        </div>
+                        <div id="section-books" class="gallery-section">
+                            <div class="gallery" id="books-gallery"></div>
+                        </div>
+                        <div id="section-stationery" class="gallery-section">
+                            <div class="gallery" id="stationery-gallery"></div>
+                        </div>
+                        <div id="section-notes" class="gallery-section">
+                            <div class="gallery" id="notes-gallery"></div>
+                        </div>
+                        <div id="section-journals" class="gallery-section">
+                            <div class="gallery" id="journals-gallery"></div>
+                        </div>
+                        <div id="section-projects" class="gallery-section">
+                            <div class="gallery" id="projects-gallery"></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="study.js" defer></script>
+</body>
+</html>

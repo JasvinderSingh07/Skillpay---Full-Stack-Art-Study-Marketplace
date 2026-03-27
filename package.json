@@ -1,0 +1,7 @@
+{
+  "name": "skillpay-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd SkillPay-Marketplace--main/backend && npm start"
+  }
+}
